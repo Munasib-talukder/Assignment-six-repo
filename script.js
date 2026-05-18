@@ -328,3 +328,6 @@ function updateCartUI() {
   // ফাইনাল টোটাল প্রাইস আপডেট
   cartTotalPriceElem.innerText = state.totalPrice;
 }
+
+
+console.log("Bangladesh")
