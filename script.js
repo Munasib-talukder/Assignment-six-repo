@@ -328,18 +328,3 @@ function updateCartUI() {
   // ফাইনাল টোটাল প্রাইস আপডেট
   cartTotalPriceElem.innerText = state.totalPrice;
 }
-
-/* ==========================================================================
-   ৮) GLOBAL UTILITIES & SANITIZATION
-   ========================================================================== */
-function toggleSpinner(show) {
-  if (show) {
-    loadingSpinner.classList.remove('hidden');
-  } else {
-    loadingSpinner.classList.add('hidden');
-  }
-}
-
-function escapeHtml(str) {
-  return str.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-}
